@@ -1,7 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const ctrlLocations =
-  require('../controllers/locations');
+const ctrlLocations =require('../controllers/locations');
 const ctrlothers = require('../controllers/others');
 /* GET home page. */
 router.get('/',ctrlLocations.homelist);
